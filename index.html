@@ -24,9 +24,152 @@
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <a class="navbar-brand" href=".">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Writing Corner <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="Writing_Corner/01_Writing_Corner/" class="dropdown-item">Writing Corner</a>
+</li>
+                                    
+<li>
+    <a href="Writing_Corner/02_Lab_writeups/" class="dropdown-item">02 Lab writeups</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Lab protocols <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="lab_protocols/00_Introduction_to_protocols/" class="dropdown-item">How to use protocols in this course</a>
+</li>
+                                    
+<li>
+    <a href="lab_protocols/GMO_lab/" class="dropdown-item">GMO lab</a>
+</li>
+                                    
+<li>
+    <a href="lab_protocols/Mitocondrial_sequencing_at_home/" class="dropdown-item">Mitocondrial sequencing at home</a>
+</li>
+                                    
+<li>
+    <a href="lab_protocols/bacterial_transformation/" class="dropdown-item">Bacterial transformation</a>
+</li>
+                                    
+<li>
+    <a href="lab_protocols/dna_barcoding_lab/" class="dropdown-item">Dna barcoding lab</a>
+</li>
+                                    
+<li>
+    <a href="lab_protocols/pipetting_demo/" class="dropdown-item">Pipetting demo</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Notes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="notes/01_Lab_safety/" class="dropdown-item">01 Lab safety</a>
+</li>
+                                    
+<li>
+    <a href="notes/02_DNA_basics/" class="dropdown-item">02 DNA basics</a>
+</li>
+                                    
+<li>
+    <a href="notes/03_Measurement/" class="dropdown-item">03 Measurement</a>
+</li>
+                                    
+<li>
+    <a href="notes/04_Science_Method/" class="dropdown-item">04 Science Method</a>
+</li>
+                                    
+<li>
+    <a href="notes/05_Lab_Math/" class="dropdown-item">05 Lab Math</a>
+</li>
+                                    
+<li>
+    <a href="notes/06_Mitocondrial_DNA/" class="dropdown-item">06 Mitocondrial DNA</a>
+</li>
+                                    
+<li>
+    <a href="notes/07_PCR_Basics/" class="dropdown-item">07 PCR Basics</a>
+</li>
+                                    
+<li>
+    <a href="notes/08_Electrophoresis_and_Sequencing_Basics/" class="dropdown-item">08 Electrophoresis and Sequencing Basics</a>
+</li>
+                                    
+<li>
+    <a href="notes/09_GMO_foods/" class="dropdown-item">09 GMO foods</a>
+</li>
+                                    
+<li>
+    <a href="notes/10_DNA_Barcoding/" class="dropdown-item">10 DNA Barcoding</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Review sheets <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="review_sheets/Quiz_III_MtDNA_electrophoresis_and_PCR/" class="dropdown-item">Quiz III MtDNA electrophoresis and PCR</a>
+</li>
+                                    
+<li>
+    <a href="review_sheets/Quiz_II_bacterial-transformation_and_moles/" class="dropdown-item">Quiz II bacterial transformation and moles</a>
+</li>
+                                    
+<li>
+    <a href="review_sheets/Quiz_IV_PTC_lab/" class="dropdown-item">Quiz IV PTC lab</a>
+</li>
+                                    
+<li>
+    <a href="review_sheets/Quiz_I_lab_Safety_and_Transformation/" class="dropdown-item">Quiz I lab Safety and Transformation</a>
+</li>
+                                    
+<li>
+    <a href="review_sheets/Quiz_VI_DNA_Barcoding/" class="dropdown-item">Quiz VI DNA Barcoding</a>
+</li>
+                                    
+<li>
+    <a href="review_sheets/Quiz_V_GMO_foods/" class="dropdown-item">Quiz V GMO foods</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Science methodology concepts <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="science_methodology_concepts/00_Introduction_to_the_concepts/" class="dropdown-item">Introduction to these concepts</a>
+</li>
+                                    
+<li>
+    <a href="science_methodology_concepts/01_Method/" class="dropdown-item">Method</a>
+</li>
+                                    
+<li>
+    <a href="science_methodology_concepts/02_Ethics/" class="dropdown-item">Ethics</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
@@ -34,6 +177,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Writing_Corner/01_Writing_Corner/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -52,13 +205,13 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcome-to-mkdocs" class="nav-link">Welcome to MkDocs</a>
+            <li class="nav-item" data-level="1"><a href="#science-research-and-methodology" class="nav-link">Science Research and Methodology</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#commands" class="nav-link">Commands</a>
+            <li class="nav-item" data-level="2"><a href="#course-description-grading-and-requirements" class="nav-link">Course description, grading, and requirements</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+            <li class="nav-item" data-level="2"><a href="#science-research-methodology-2021-22-class-schedule" class="nav-link">Science Research Methodology 2021-22 Class Schedule</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -69,21 +222,388 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="science-research-and-methodology">Science Research and Methodology</h1>
+<p><strong>Yeshiva University High School for Girls</strong>
+<strong>Fall 2021 - Spring 2022</strong></p>
+<p>Jason Williams: Instructor
+<br> Fall: Mondays 5:40-7:00pm and Tuesdays 5:40-6:30pm
+<br> Spring: Mondays 5:40-7:00pm</p>
+<hr />
+<h2 id="course-description-grading-and-requirements">Course description, grading, and requirements</h2>
+<p><strong>Objectives:</strong>
+This course is designed with the intention of producing thinkers first and
+scientists second. The fall portion of the course will give a broad introduction
+of the skills in modern molecular biology. You will cover basic
+experiments and techniques in molecular biology. As your knowledge increases,
+your methodological insights will be put into scientific context.</p>
+<p><strong>Skills:</strong> Students should hope to understand the following subject areas:</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Understanding of the “scientific” method</li>
+<li>Ability to independently design and critique experiments</li>
+<li>Ability to do independent research</li>
+<li>Awareness of current advances, and issues in science</li>
+<li>How to find scientific mentors and get started on summer research projects</li>
+<li>The basic techniques of the modern biological laboratory.</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<p><strong>Class Materials:</strong> Students are expected to come prepared to each class with</p>
+<ul>
+<li>Notebook or loose-leaf binder for in-class notes (electronic notes are permitted)</li>
+<li>A laboratory notebook (marble notebook)</li>
+<li>Chromebook/laptop when a computer-based assignment will be covered</li>
+</ul>
+<p><strong>Google Drive:</strong> Many assignments will be issued and/or returned using the
+YUHSG Google Drive. Every student should have access to her own folder shared
+only with the student and instructor.</p>
+<p><strong>Tests/Grades:</strong> We will have quizzes monthly at the start of class. These will
+be posted on the calendar. Semester grade composition:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Percentage of Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quizzes</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>Homework</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Major assignments (1 per semester)</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Engagement and academic ethic</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Extra credit:</strong> Assignments are available upon request and can replace 1 quiz
+grade.</p>
+<p><strong>Email:</strong> As I am part-time staff, I will use electronic mail extensively to
+communicate with students. Students are <strong>expected to check their email at least
+weekly</strong>, and check the website for handouts and assignments. The school
+provides email accounts to all students who need them. Please cc my
+Williams@cshl.edu email address. All emails must be written to or cc my
+Williams@yuhsg.org address.</p>
+<p><strong>Questions/Absences/Class cancellations:</strong> I will call the main office for
+cancellation due to weather or emergency. Please email me for anything else:
+Williams@yuhsg.org (please always cc Williams@cshl.edu).</p>
+<p><strong>Parent Teacher Conferences</strong>
+Since we have a smaller group of students, I will be available in-person on one
+night only of the fall parent teacher conferences. For the spring semester,
+or at any time, I can setup a time to talk with parents via phone or online
+conference to discuss any questions or concerns. I can also arrange to speak
+with parents immediately before or after class sessions.</p>
+<hr />
+<h2 id="science-research-methodology-2021-22-class-schedule"><strong>Science Research Methodology 2021-22 Class Schedule</strong></h2>
+<h3 id="september">September</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14</td>
+<td><ul><li>First class<li>Lab safety</ul></td>
+<td></td>
+<td><ul><li><a href="notes/01_Lab_safety/">Notes: Safety</a><li><a href="_includes/handouts/howtoreadmsds.pdf">Handout: How to read an MSDS</a></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="october">October</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4(virtual)-5(in-person)</td>
+<td><ul><li>Molecular Biology Primer</ul></td>
+<td></td>
+<td><ul><li><a href="_includes/slides/intro-to-dna.pdf">Slides: Intro to DNA</a><li><a href="notes/02_DNA_basics/">Notes: DNA Basics</a><li><a href="notes/03_Measurement/">Measurement notes</a><li><a href="lab_protocols/pipetting_demo/">Pipetting Lab Demo</a></ul></td>
+</tr>
+<tr>
+<td>11-12</td>
+<td><ul><li>Bacterial transformation lab</ul></td>
+<td></td>
+<td><ul><li><a href="_includes/slides/bacterial-transformation.pdf">Bacterial Transformation I Slides</a></ul></td>
+</tr>
+<tr>
+<td>18-19</td>
+<td><ul><li>Scientific Methodology;  Bacterial transformation</ul></td>
+<td><a href="review_sheets/Quiz_I_lab_Safety_and_Transformation/">Quiz I review sheet</a></td>
+<td><ul><li><a href="_includes/slides/bacterial-transformation_II.pdf">Bacterial Transformation II Slides</a></ul></td>
+</tr>
+<tr>
+<td>25-26</td>
+<td><ul><li>Hypothesis testing; Genetics and PTC Tasting Lab </ul></td>
+<td>Quiz I</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="november">November</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td><ul><li>Lab math; reagents</ul></td>
+<td></td>
+<td><ul><li><a href="notes/05_Lab_Math/">Lab math</a></ul></td>
+</tr>
+<tr>
+<td>8-9</td>
+<td><ul><li>Lab Math II and Python Coding </ul></td>
+<td></td>
+<td><ul><li><a href="https://de.cyverse.org//apps/de/07a2d5b2-76e2-11eb-be5f-008cfa5ae621">Jupyter Link</a><li><code>git clone https://github.com/JasonJWilliamsNY/science_institute_notebooks_21.git</code></ul></td>
+</tr>
+<tr>
+<td>15-16</td>
+<td><ul><li>Human Mitochondrial DNA Lab <li> Lab Math III Python Coding</ul></td>
+<td><ul><li><a href="review_sheets/Quiz_II_bacterial-transformation_and_moles/">Quiz II review sheet</a></ul></td>
+<td><ul><li><a href="./notes/06_Mitocondrial_DNA/">MT DNA</a><li><a href="_includes/slides/mitochondrial_DNA_basics.pdf">MT DNA slides</a></ul></td>
+</tr>
+<tr>
+<td>22-23</td>
+<td><ul><li>Human Mitochondrial DNA Lab </ul></td>
+<td>Quiz II</td>
+<td><ul><li><a href="http://www.geneticorigins.org/mito/laboratory.html">Mitochondrial DNA lab protocol</a></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="december">December</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6-7</td>
+<td><ul><li>Human Mitochondrial DNA Lab; Genetics and Ethics</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td><ul><li>MtDNA</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>20-21 (no class)</td>
+<td></td>
+<td></td>
+<td><a href="review_sheets/Quiz_III_MtDNA_electrophoresis_and_PCR/">Quiz III review sheet</a></td>
+</tr>
+<tr>
+<td>27-28</td>
+<td><ul><li>MtDNA Analysis <li>Semester Concept Review</ul></td>
+<td>Quiz III (Taken remotely on January 4th)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="january">January</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>31</td>
+<td><ul><li>Reading Scientific Papers</ul></td>
+<td></td>
+<td><ul><li><a href="_includes/handouts/ACBuck.pdf">The molecular basis of odor recognition</a></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="february">February</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td><ul><li>PTC Lab I </ul></td>
+<td></td>
+<td><ul><li><a href="https://dnalc.cshl.edu/assets/files/dnalc-live/17164.ptc_student.pdf">lab protocol</a></ul></td>
+</tr>
+<tr>
+<td>14</td>
+<td><ul><li>PTC Lab II</ul></td>
+<td></td>
+<td><ul><li><a href="_includes/lab_results/ptc_1-4.JPG">lab results:1-4</a><li><a href="_includes/lab_results/ptc_5-8.JPG">lab results:5-8</a></ul></td>
+</tr>
+<tr>
+<td>21 (no class)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td><ul><li>GMO Foods</ul></td>
+<td></td>
+<td><ul><li><a href="_includes/slides/GMO_lab_.pptx">Slides: GMO Slides</a><li><a href="_includes/handouts/gmo_lab.pdf">Lab handout</a></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="march">March</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td><ul><li>DNA Barcoding Labs</ul></td>
+<td>Quiz IV</td>
+<td><ul><li><a href="review_sheets/Quiz_IV_PTC_lab/">Review sheet</a></ul></td>
+</tr>
+<tr>
+<td>14</td>
+<td><ul><li>Developing Scientific Presentations I</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td><ul><li>GMO review</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td><ul><li>DNA Barcoding</ul></td>
+<td><a href="review_sheets/Quiz_V_GMO_foods/">Quiz V review sheet</a></td>
+<td><ul><li><a href="_includes/slides/DNA_barcoding_basics.pdf">DNA Barcoding basics</a></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="april">April</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td><ul><li>Independent DNA Barcoding Labs</ul></td>
+<td>Quiz V</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td><ul><li>Independent DNA Barcoding Labs</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18 (no class)</td>
+<td><ul><li></ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>25 (no class)</td>
+<td><ul><li></ul></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="may">May</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td><ul><li>Independent DNA Barcoding Labs</ul></td>
+<td></td>
+<td><ul><li><a href="_includes/handouts/final_assignment_2022.pdf">Final assignment</a></ul></td>
+</tr>
+<tr>
+<td>9</td>
+<td><ul><li>Independent DNA Barcoding Labs</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td><ul><li>Independent DNA Barcoding Labs (No in-person or recording - written)</ul></td>
+<td><ul><li><a href="review_sheets/Quiz_VI_DNA_Barcoding/">Quiz review sheet</a><li>Read up to page 15 of mosquito handout. You are not responsible for the section questions, but the information in these sections will be helpful for the quiz points - Why we need to trim sequences, and what is BLAST and why do we use it. </ul></td>
+<td><ul><li> <a href="_includes/handouts/subway_mosquito_lab.pdf">Mosquito Handout</a></ul></td>
+</tr>
+<tr>
+<td>23</td>
+<td><ul><li>No In-person Class (Virtual 6:30-7 PM)</ul></td>
+<td>Quiz VI</td>
+<td></td>
+</tr>
+<tr>
+<td>31 (Tuesday 5:40-6:30)</td>
+<td><ul><li>Final Class (proposed)</ul></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
             </div>
         </div>
 
@@ -164,5 +684,5 @@ docs/
 
 <!--
 MkDocs version : 1.3.0
-Build Date UTC : 2022-09-05 13:44:46.621383+00:00
+Build Date UTC : 2022-09-05 14:31:23.754626+00:00
 -->

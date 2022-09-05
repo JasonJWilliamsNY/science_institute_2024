@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>05 Lab Math - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Writing Corner <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Writing_Corner/01_Writing_Corner/" class="dropdown-item">Writing Corner</a>
+</li>
+                                    
+<li>
+    <a href="../../Writing_Corner/02_Lab_writeups/" class="dropdown-item">02 Lab writeups</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Lab protocols <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../lab_protocols/00_Introduction_to_protocols/" class="dropdown-item">How to use protocols in this course</a>
+</li>
+                                    
+<li>
+    <a href="../../lab_protocols/GMO_lab/" class="dropdown-item">GMO lab</a>
+</li>
+                                    
+<li>
+    <a href="../../lab_protocols/Mitocondrial_sequencing_at_home/" class="dropdown-item">Mitocondrial sequencing at home</a>
+</li>
+                                    
+<li>
+    <a href="../../lab_protocols/bacterial_transformation/" class="dropdown-item">Bacterial transformation</a>
+</li>
+                                    
+<li>
+    <a href="../../lab_protocols/dna_barcoding_lab/" class="dropdown-item">Dna barcoding lab</a>
+</li>
+                                    
+<li>
+    <a href="../../lab_protocols/pipetting_demo/" class="dropdown-item">Pipetting demo</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Notes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../01_Lab_safety/" class="dropdown-item">01 Lab safety</a>
+</li>
+                                    
+<li>
+    <a href="../02_DNA_basics/" class="dropdown-item">02 DNA basics</a>
+</li>
+                                    
+<li>
+    <a href="../03_Measurement/" class="dropdown-item">03 Measurement</a>
+</li>
+                                    
+<li>
+    <a href="../04_Science_Method/" class="dropdown-item">04 Science Method</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">05 Lab Math</a>
+</li>
+                                    
+<li>
+    <a href="../06_Mitocondrial_DNA/" class="dropdown-item">06 Mitocondrial DNA</a>
+</li>
+                                    
+<li>
+    <a href="../07_PCR_Basics/" class="dropdown-item">07 PCR Basics</a>
+</li>
+                                    
+<li>
+    <a href="../08_Electrophoresis_and_Sequencing_Basics/" class="dropdown-item">08 Electrophoresis and Sequencing Basics</a>
+</li>
+                                    
+<li>
+    <a href="../09_GMO_foods/" class="dropdown-item">09 GMO foods</a>
+</li>
+                                    
+<li>
+    <a href="../10_DNA_Barcoding/" class="dropdown-item">10 DNA Barcoding</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Review sheets <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_III_MtDNA_electrophoresis_and_PCR/" class="dropdown-item">Quiz III MtDNA electrophoresis and PCR</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_II_bacterial-transformation_and_moles/" class="dropdown-item">Quiz II bacterial transformation and moles</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_IV_PTC_lab/" class="dropdown-item">Quiz IV PTC lab</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_I_lab_Safety_and_Transformation/" class="dropdown-item">Quiz I lab Safety and Transformation</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_VI_DNA_Barcoding/" class="dropdown-item">Quiz VI DNA Barcoding</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_V_GMO_foods/" class="dropdown-item">Quiz V GMO foods</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Science methodology concepts <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../science_methodology_concepts/00_Introduction_to_the_concepts/" class="dropdown-item">Introduction to these concepts</a>
+</li>
+                                    
+<li>
+    <a href="../../science_methodology_concepts/01_Method/" class="dropdown-item">Method</a>
+</li>
+                                    
+<li>
+    <a href="../../science_methodology_concepts/02_Ethics/" class="dropdown-item">Ethics</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../04_Science_Method/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../06_Mitocondrial_DNA/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#05-lab-math" class="nav-link">05 Lab math</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#links" class="nav-link">Links</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="05-lab-math">05 Lab math</h1>
+<h3 id="important-termsconcepts">Important terms/concepts</h3>
+<ul>
+<li>Atomic weight</li>
+<li>Molecular/formula weight</li>
+<li>Moles</li>
+<li>Reagents</li>
+<li>Stock solution</li>
+<li>Dilution</li>
+</ul>
+<h3 id="some-questions">Some Questions</h3>
+<ul>
+<li>How is the periodic table organized?</li>
+<li>How do we calculate the molecular weight of a compound?</li>
+<li>How do we calculate molarity and why do we make use of moles?</li>
+<li>Why do we have stock solutions?</li>
+<li>How do we dilute a stock solution?</li>
+</ul>
+<h3 id="discussion-outline">Discussion outline</h3>
+<h4 id="concentration">Concentration</h4>
+<p>One of the most basic laboratory reagents will involve some solute in some solvent. We have performed this procedure countless times, for example when we add some sugar to a cup of hot tea. To find the concentration, we need to know how much solvent (usually in grams) is dissolved in how much solvent (usually measured in liters).</p>
+<h4 id="dilution-of-stock-solutions">Dilution of stock solutions</h4>
+<p>Commonly, we will create high-concentration solutions in the lab that can later be diluted. A high-concentration solution is called a 'stock' solution. Making a stock solution allows us to save space. For example, if we have a solution that has 100g of salt in 1L of water, we need a liter-sized bottle to store it. However, if we dissolve 100g of salt in 0.1L of water, we can store the same amount of solution in 1/10th the space.</p>
+<p>Question How does using a stock solution (vs. making a new solution every time it is needed) make science more reproducible?</p>
+<p>To dilute a solution from the original concentration to a new concentration we need to keep track of several things:</p>
+<ul>
+<li>The original concentration of the solution</li>
+<li>The desired final amount (volume) of the dilution we are making</li>
+<li>Desired final concentration of the dilution we are making</li>
+</ul>
+<p>The thing we need to figure out is what amount (volume) of the concentrated stock solution do we need to add to more solvent to make a more dilute solution.</p>
+<p>Again, keep in mind that this is an 'everyday' problem. Imagine you made some soup and accidentally added too much salt. You can't take the salt out, but you can add more water to make the final concentration of the salt less.</p>
+<p>The formula for calculating dilutions is:</p>
+<p>C<sub>1</sub><em>V<sub>1</sub> = C<sub>2</sub></em>V<sub>2</sub></p>
+<p>Where:</p>
+<ul>
+<li>C<sub>1</sub> = The original/starting concentration of the stock solution</li>
+<li>V<sub>1</sub> = The (unknown) amount (volume) of the stock solution you will
+  need to use</li>
+<li>C<sub>2</sub> = The final, desired concentration</li>
+<li>V<sub>2</sub> = The final, desired volume you wish to make</li>
+</ul>
+<h4 id="moles">Moles</h4>
+<p>Probably one of the most important concepts in chemistry is the concept of a mole). The mole is a special number (it even has its own holiday). A mole is just a number, but a very large one:</p>
+<p>6.02214078×10<sup>23</sup> (A mole: also known as, Avagadro's Number)</p>
+<p>A 'mole' is actually shorthand for that large number. Just like a 'dozen' = 12, a couple = 2, etc.</p>
+<p>So why do we need this number?</p>
+<p>Well, Atoms are very small. We can't count them one by one, but when we have lots of atoms (several grams at least for the kinds of scales we have at school), we can measure and estimate how many atoms we have.</p>
+<h4 id="weighing-atoms">Weighing atoms</h4>
+<p>By definition, when we have a mole of atoms, we have 6.02214078×10<sup>23</sup> atoms. In reality, just like not every egg will weigh 73g, different atoms have a diffent atomic mass. On the periodic table, the atomic mass is the number below the element symbol:
+For carbon (C), 12.011g of carbon, we have 6.02214078×10<sup>23</sup> carbon atoms. A 1.008g sample of hydrogen (H) weighs much less but has the same number of atoms.
+Why this is very important</p>
+<p>With an understanding of Avagradro's number and the atomic masses from the periodic table, we can accomplish something amazing. When we combine elements to form a new compound (e.g. combining hydrogen and oxygen to make water), we know exactly how much (mass) of hydrogen we need to combine with how much oxygen so that we have enough amounts of each.</p>
+<h3 id="molar-massmoluar-massfomula-weight">Molar mass/moluar mass/fomula weight</h3>
+<p>When we have a compound such as Glucose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) we calculate the molar mass as the sum of the total number of moles of each atom in the compound.</p>
+<p>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
+<p>6 Moles of Carbon 12 Moles of Hydrogen 6 Moles of Oxygen</p>
+<h4 id="molarity">Molarity</h4>
+<p>Related to moles is the concept of molarity, or how many moles of a substance do we have in a solution. The formula for molarity of is:</p>
+<p>Moles of solute/ Liters of solvent</p>
+<h3 id="limiting-reagents">Limiting reagents</h3>
+<p>Conceptually, knowing how many moles we have allows us to determine in advance how many moles of a substance is needed to create a particular molecule. For example: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> Would require us to have 6 moles of Carbon, 6 moles of Oxygen, and 12 moles of Hydrogen</p>
+<p>While we won't solve an example here, the sandwich example below gets the point across about limiting reagents - we can only make a much of a substance as the least abundant component will allow; If we have hundreds of slices of cheese, but only 2 slices of bread, we get only one sandwich.</p>
+<h2 id="links">Links</h2>
+<ol>
+<li><a href="https://youtu.be/wI56mHUDJgQ">What is a mole</a> - A nice intro to the mole.</li>
+<li><a href="https://youtu.be/FPidlCmymVg">Dilution Problems, Chemistry, Molarity &amp; Concentration Examples, Formula &amp; Equations</a> - Although some slightly different notation is used, this is a thorough intro to dilutions.</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

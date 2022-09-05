@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Pipetting demo - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Writing Corner <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Writing_Corner/01_Writing_Corner/" class="dropdown-item">Writing Corner</a>
+</li>
+                                    
+<li>
+    <a href="../../Writing_Corner/02_Lab_writeups/" class="dropdown-item">02 Lab writeups</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Lab protocols <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../00_Introduction_to_protocols/" class="dropdown-item">How to use protocols in this course</a>
+</li>
+                                    
+<li>
+    <a href="../GMO_lab/" class="dropdown-item">GMO lab</a>
+</li>
+                                    
+<li>
+    <a href="../Mitocondrial_sequencing_at_home/" class="dropdown-item">Mitocondrial sequencing at home</a>
+</li>
+                                    
+<li>
+    <a href="../bacterial_transformation/" class="dropdown-item">Bacterial transformation</a>
+</li>
+                                    
+<li>
+    <a href="../dna_barcoding_lab/" class="dropdown-item">Dna barcoding lab</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Pipetting demo</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Notes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../notes/01_Lab_safety/" class="dropdown-item">01 Lab safety</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/02_DNA_basics/" class="dropdown-item">02 DNA basics</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/03_Measurement/" class="dropdown-item">03 Measurement</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/04_Science_Method/" class="dropdown-item">04 Science Method</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/05_Lab_Math/" class="dropdown-item">05 Lab Math</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/06_Mitocondrial_DNA/" class="dropdown-item">06 Mitocondrial DNA</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/07_PCR_Basics/" class="dropdown-item">07 PCR Basics</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/08_Electrophoresis_and_Sequencing_Basics/" class="dropdown-item">08 Electrophoresis and Sequencing Basics</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/09_GMO_foods/" class="dropdown-item">09 GMO foods</a>
+</li>
+                                    
+<li>
+    <a href="../../notes/10_DNA_Barcoding/" class="dropdown-item">10 DNA Barcoding</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Review sheets <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_III_MtDNA_electrophoresis_and_PCR/" class="dropdown-item">Quiz III MtDNA electrophoresis and PCR</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_II_bacterial-transformation_and_moles/" class="dropdown-item">Quiz II bacterial transformation and moles</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_IV_PTC_lab/" class="dropdown-item">Quiz IV PTC lab</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_I_lab_Safety_and_Transformation/" class="dropdown-item">Quiz I lab Safety and Transformation</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_VI_DNA_Barcoding/" class="dropdown-item">Quiz VI DNA Barcoding</a>
+</li>
+                                    
+<li>
+    <a href="../../review_sheets/Quiz_V_GMO_foods/" class="dropdown-item">Quiz V GMO foods</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Science methodology concepts <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../science_methodology_concepts/00_Introduction_to_the_concepts/" class="dropdown-item">Introduction to these concepts</a>
+</li>
+                                    
+<li>
+    <a href="../../science_methodology_concepts/01_Method/" class="dropdown-item">Method</a>
+</li>
+                                    
+<li>
+    <a href="../../science_methodology_concepts/02_Ethics/" class="dropdown-item">Ethics</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../dna_barcoding_lab/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../notes/01_Lab_safety/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#01-micropipette-measurement-and-error-lab" class="nav-link">01 Micropipette Measurement and Error Lab</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#error" class="nav-link">Error</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#pipetting-exercise" class="nav-link">Pipetting Exercise</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#error-table" class="nav-link">Error table</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#calculating-the-difference-in-error" class="nav-link">Calculating the difference in error</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="01-micropipette-measurement-and-error-lab">01 Micropipette Measurement and Error Lab</h1>
+<p>Micropipettes are standard equipment in the molecular biology lab. Like all experimental equipment they are imperfect, meaning that they have error.</p>
+<h1 id="error">Error</h1>
+<p>Error is an important concept for all scientists - we already know any measurement we make is imperfect, but even more important to a scientist is that we try to describe how much error our measurements may contain.</p>
+<p>Two ways we can describe this is to talk about a measurements'</p>
+<ul>
+<li>Accuracy (How much a measurement/observation differs from the true value)</li>
+<li>Precision (If we take a measurement many times, how closely will those different measurements/observations agree)</li>
+</ul>
+<p>Here are some figures that illustrate these points</p>
+<p><strong>As a graph</strong>
+<img alt="" src="../../notes/img/02_2880px-Accuracy_and_precision.svg.png" /></p>
+<p>[Credit: Pekaje at English Wikipedia - Transferred from en.wikipedia to Commons. Created by Pekaje, based on PNG version by Anthony Cutler, using en:xfig, en:inkscape, and en:HTML Tidy]</p>
+<p><strong>As an anology with darts</strong>
+<img alt="" src="../../notes/img/02_precision_accuracy.png" />
+[Credit: http://cdn.antarcticglaciers.org/wp-content/uploads/2013/11/precision_accuracy.png]</p>
+<h2 id="pipetting-exercise">Pipetting Exercise</h2>
+<p>Based on <strong>DNA Science A First Course - Second Edition: Micklos, Freyer, Crotty</strong></p>
+<p>Complete the following instructions with our colored solutions to test our pipette error. If you have the <strong>Grey Pipette</strong> use this table:</p>
+<table>
+<thead>
+<tr>
+<th>Tube</th>
+<th>Sol. I</th>
+<th>Sol. II</th>
+<th>Sol. III</th>
+<th>Sol. IV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>4 ul</td>
+<td>5 ul</td>
+<td>1 ul</td>
+<td>-</td>
+</tr>
+<tr>
+<td>B</td>
+<td>4 ul</td>
+<td>5 ul</td>
+<td>- ul</td>
+<td>1 ul</td>
+</tr>
+<tr>
+<td>C</td>
+<td>4 ul</td>
+<td>4 ul</td>
+<td>1 ul</td>
+<td>1 ul</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Use a marker to label three tubes A, B, and C</li>
+<li>Use the table above to add the required amount of solution to each tube</li>
+<li>Use a centrifuge to spin all the solutions down to the bottom of the tubes</li>
+<li>Using a grey pipette set 10 microliters, test and see if each tube actually has the full 10ul volume. You can adjust the volume down until there is no air to get the actual measurement.</li>
+</ol>
+<p>If you have the <strong>Blue Pipette</strong> use this table:</p>
+<table>
+<thead>
+<tr>
+<th>Tube</th>
+<th>Sol. I</th>
+<th>Sol. II</th>
+<th>Sol. III</th>
+<th>Sol. IV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D</td>
+<td>100 ul</td>
+<td>200 ul</td>
+<td>150 ul</td>
+<td>550 ul</td>
+</tr>
+<tr>
+<td>E</td>
+<td>150 ul</td>
+<td>250 ul</td>
+<td>350 ul</td>
+<td>250 ul</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Use a marker to label three tubes D and E</li>
+<li>Use the table above to add the required amount of solution to each tube</li>
+<li>Using a blue pipette set 1000 microliters, test and see if each tube actually has the full 100ul volume. You can adjust the volume down until there is no air to get the actual measurement.</li>
+</ol>
+<h2 id="error-table">Error table</h2>
+<p>According to Eppendorf, pipettes should have the following amount of error (pipettes we used are highlighted)
+<img alt="" src="../../notes/img/02_pipette_error.png" /></p>
+<p>So for example, a blue pipette measuring 1000ul can will typically have up to 0.6 percent error. We can calculate this in the following cell:</p>
+<pre><code class="language-python"># 1000ul multiplied by 0.6%
+1000 * 0.006
+</code></pre>
+<pre><code>6.0
+</code></pre>
+<p>So, our measurement is usually off by about 6 microliters.
+This is the systemic error. If we also add the random error we get:</p>
+<pre><code class="language-python"># 1000ul multiplied by 0.6% + 0.2%
+1000 * (0.006 + 0.002)
+</code></pre>
+<pre><code>8.0
+</code></pre>
+<p>Including the random error we can be off by as much as 8 microliters.</p>
+<h2 id="calculating-the-difference-in-error">Calculating the difference in error</h2>
+<p>If we know what our expected error is (e.g. 8ul) what if our observed error is more than this (lets say 15 ul). What is the difference?</p>
+<pre><code class="language-python">Expected_error = 8
+Observed_error = 15
+
+#abs stands for absolute value
+difference_in_error = abs(Expected_error - Observed_error)/((Expected_error + Observed_error)/2)*100
+print(difference_in_error)
+</code></pre>
+<pre><code>60.86956521739131
+</code></pre>
+<p>In our example above there was a 60% difference. Given your values, what percent error did you see?</p>
+<pre><code class="language-python"># change these two number to what are correct in your case
+Expected_error = 8
+Observed_error = 15
+
+#don't change this!
+difference_in_error = abs(Expected_error - Observed_error)/((Expected_error + Observed_error)/2)*100
+print(difference_in_error)
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
